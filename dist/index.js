@@ -39,6 +39,7 @@ class LoginCheck extends polymerElement_js.PolymerElement {
   _pathChanged(newValue, oldValue) {
     if (this.user) {
       if(this.path === 'user' || 'start') {
+        // console.log('test')
         // console.log('this.tail');
         // console.log(this.tail.path);
         // if(this.tail.path === '/fallback') {
