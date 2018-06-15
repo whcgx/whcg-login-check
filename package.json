@@ -1,5 +1,5 @@
 {
-  "name": "@whcg/login-check",
+  "name": "@whcg/whcg-login-check",
   "version": "1.0.6",
   "description": "",
   "main": "dist/index.js",
