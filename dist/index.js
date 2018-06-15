@@ -8,7 +8,7 @@ require('@polymer/polymer/lib/elements/dom-if.js');
 /**
  * LoginCheck
  */
-class LoginCheck extends polymerElement_js.PolymerElement {
+class WhcgLoginCheck extends polymerElement_js.PolymerElement {
 
   static get properties() {
     return {
@@ -90,6 +90,6 @@ class LoginCheck extends polymerElement_js.PolymerElement {
   }
 }
 
-window.customElements.define('login-check', LoginCheck);
+window.customElements.define('whcg-login-check', WhcgLoginCheck);
 
-exports.LoginCheck = LoginCheck;
+exports.WhcgLoginCheck = WhcgLoginCheck;

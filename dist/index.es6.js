@@ -4,7 +4,7 @@ import '@polymer/polymer/lib/elements/dom-if.js';
 /**
  * LoginCheck
  */
-class LoginCheck extends PolymerElement {
+class WhcgLoginCheck extends PolymerElement {
 
   static get properties() {
     return {
@@ -86,6 +86,6 @@ class LoginCheck extends PolymerElement {
   }
 }
 
-window.customElements.define('login-check', LoginCheck);
+window.customElements.define('whcg-login-check', WhcgLoginCheck);
 
-export { LoginCheck };
+export { WhcgLoginCheck };
