@@ -1,4 +1,4 @@
-import { html, PolymerElement } from '@polymer/polymer/polymer-element.js';
+import { PolymerElement } from '@polymer/polymer/polymer-element.js';
 import '@polymer/polymer/lib/elements/dom-if.js';
 
 /**
@@ -87,4 +87,3 @@ export class WhcgLoginCheck extends PolymerElement {
 }
 
 window.customElements.define('whcg-login-check', WhcgLoginCheck);
-
